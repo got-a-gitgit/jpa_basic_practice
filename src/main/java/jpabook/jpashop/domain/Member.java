@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Member {
+public class Member extends BaseEntity {
 
     @Id @GeneratedValue //설정값 생략하면 strategy가 AUTO로 적용된다
     @Column(name = "MEMBER_ID")
