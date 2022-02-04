@@ -7,7 +7,7 @@ import java.util.List;
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "DTYPE")
-public class Item extends BaseEntity{
+public class Item extends BaseEntity {
 
     @Id
     @GeneratedValue
